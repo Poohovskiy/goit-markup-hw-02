@@ -1,0 +1,93 @@
+/* Основний колір тексту #757575; */
+/* Другорядний колір тексту rgba(117, 117, 117, 1) */
+/* Стиль заголовка #FFFFFF; */
+/* Білий #FFFFFF */
+/* Білий другорядний #F5F5F5 */
+/* Акцент #2196F3 */
+
+:root {
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --primary-background-color: #FFFFFF;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    
+}
+
+
+
+
+
+/* Загальні на весь документ */
+body {
+    background: var(--primary-background-color);
+    width: 1600px;
+    color: var(--primary-text-color);
+    font-family: roboto;
+    }
+
+ul {
+        list-style: none;
+    }
+
+/* Логотип шапка */
+.logo-part-one {
+    color: var(--accent-color);
+}
+.logo-part-two {
+    color: var(--title-text-color);
+}
+
+/* Навігація шапка */
+.site-link:hover, .site-link:focus {
+    color: var(--accent-color); 
+}
+
+.site-link {
+    color: var(--title-text-color);
+}
+
+
+
+
+
+
+/* Заголовок Hero */
+
+/* .hero {
+    background-color: #2F303A;
+    height: 600px;
+    position: absolute;
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+    
+} */
+
+/* .hero-title {
+    color: #FFFFFF;
+    position: absolute;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+} */
+
+/* .hero-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    position: absolute;
+        width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 430px;
+
+} */
+
+
+/* Заголовок секцій */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
