@@ -8,28 +8,43 @@
 :root {
     --primary-text-color: rgba(117, 117, 117, 1);
     --primary-background-color: #FFFFFF;
+    --secondary-background-color: #F5F5F5;
+    --third-background-color; #F5F4FA;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    
+    --contact-link-text-color: #757575;
+    --hero-title-color: #FFFFFF;
+    --hero-background-color: #2F303A;
 }
-
-
-
-
 
 /* Загальні на весь документ */
 body {
     background: var(--primary-background-color);
     width: 1600px;
     color: var(--primary-text-color);
-    font-family: roboto;
+    font-family: 'Roboto';
     }
 
 ul {
         list-style: none;
     }
 
+a {
+    text-decoration-line: none;
+}
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
 /* Логотип шапка */
+.site-header {
+    background-color: var(--hero-title-color);
+}
+
 .logo-part-one {
     color: var(--accent-color);
 }
@@ -37,57 +52,142 @@ ul {
     color: var(--title-text-color);
 }
 
+.logo-part-one, .logo-part-two {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
 /* Навігація шапка */
-.site-link:hover, .site-link:focus {
+.site-nav-link:hover, .site-nav-link:focus, .site-nav-link:active {
     color: var(--accent-color); 
 }
 
-.site-link {
+.site-nav-link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 
-
-
-
-
-
-/* Заголовок Hero */
-
-/* .hero {
-    background-color: #2F303A;
-    height: 600px;
-    position: absolute;
-        width: 1600px;
-        height: 600px;
-        left: 0px;
-        top: 80px;
-    
-} */
-
-/* .hero-title {
-    color: #FFFFFF;
-    position: absolute;
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 280px;
-} */
-
-/* .hero-button {
-    background-color: #2196F3;
-    color: #FFFFFF;
-    position: absolute;
-        width: 216px;
-        height: 50px;
-        left: 692px;
-        top: 430px;
-
-} */
-
-
-/* Заголовок секцій */
-
-.section-title {
-    color: var(--title-text-color);
+.contact-link:hover, .contact-link:focus, .contact-link:active {
+    color: var(--accent-color);
 }
 
+.contact-link {
+    color: var(--contact-link-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+/* Заголовок та бекграунд Hero */
+.hero {
+    background-color: var(--hero-background-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--hero-title-color);
+}
+
+/* Кнопка замовити */
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--hero-title-color);
+}
+
+/* Наші переваги */
+
+.benefit-and-what-we-do-background-color {
+    background-color: var(--secondary-background-color);
+}
+
+.benefit-section-title-text {
+    color: var(--title-text-color) ;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.benefit-section-title-paragraph {
+    color: var(--contact-link-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Наша команда */
+.team-background-color {
+    background-color: var(--third-background-color);
+}
+
+.team-section-title {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+
+.team-section-paragraph {
+    color: var(--contact-link-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Підвал */
+
+.footer-page {
+    background-color: var(--hero-background-color);
+}
+
+.contact-link-map {
+    color: var(--hero-title-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.logo-part-three {
+    color: var(--hero-title-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.portfolio-background-color {
+    background-color: var(--secondary-background-color);
+}
+
+.filtering-button:hover, .filtering-button:active  {
+    background-color: var(--accent-color);
+    color: var(--hero-title-color);
+}
+
+.filtering-button {
+    background-color: var(--ffiltering-button-bj-color-pasive);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;  
+}
+
+.portfolio-text {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.portfolio-paragraph {
+    color: var(--contact-link-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
