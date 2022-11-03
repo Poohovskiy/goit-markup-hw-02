@@ -22,7 +22,8 @@ body {
     background: var(--primary-background-color);
     width: 1600px;
     color: var(--primary-text-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
     }
 
 ul {
@@ -37,7 +38,7 @@ a {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
 }
 
 /* Логотип шапка */
@@ -47,13 +48,15 @@ a {
 
 .logo-part-one {
     color: var(--accent-color);
+    letter-spacing: 0.03em;
 }
 .logo-part-two {
     color: var(--title-text-color);
+    letter-spacing: 0.03em;
 }
 
-.logo-part-one, .logo-part-two {
-    font-family: 'Raleway';
+.logo-part-one, .logo-part-two, .logo-part-three {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -68,7 +71,8 @@ a {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contact-link:hover, .contact-link:focus, .contact-link:active {
@@ -91,8 +95,10 @@ a {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     color: var(--hero-title-color);
+    letter-spacing: 0.06em;
+    text-align: center;
 }
 
 /* Кнопка замовити */
@@ -100,6 +106,7 @@ a {
 .hero-button {
     background-color: var(--accent-color);
     color: var(--hero-title-color);
+    letter-spacing: 0.06em;
 }
 
 /* Наші переваги */
@@ -119,7 +126,7 @@ a {
     color: var(--contact-link-text-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 }
 
 /* Наша команда */
@@ -131,7 +138,7 @@ a {
 color: var(--title-text-color);
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 }
 
 .team-section-paragraph {
@@ -151,6 +158,13 @@ line-height: 19px;
     color: var(--hero-title-color);
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
+}
+
+.contact-link-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -158,14 +172,17 @@ line-height: 19px;
     color: var(--hero-title-color);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
+
+/* Портфоліо */
 
 .portfolio-background-color {
     background-color: var(--secondary-background-color);
 }
 
-.filtering-button:hover, .filtering-button:active  {
+.filtering-button:hover, .filtering-button:focus  {
     background-color: var(--accent-color);
     color: var(--hero-title-color);
 }
@@ -175,19 +192,23 @@ line-height: 19px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;  
+    line-height: 1.63;  
+    letter-spacing: 0.03em;
+
 }
 
 .portfolio-text {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-}
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    }
 
 .portfolio-paragraph {
     color: var(--contact-link-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
