@@ -84,7 +84,6 @@ a {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-
 }
 
 /* Заголовок та бекграунд Hero */
@@ -107,6 +106,7 @@ a {
     background-color: var(--accent-color);
     color: var(--hero-title-color);
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* Наші переваги */
@@ -194,7 +194,7 @@ line-height: 1.19;
     font-size: 16px;
     line-height: 1.63;  
     letter-spacing: 0.03em;
-
+    cursor: pointer;
 }
 
 .portfolio-text {
